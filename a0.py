@@ -8,3 +8,22 @@
 # oykong@uci.edu
 # 92692989
 
+num = int(input())
+
+if num == 1:
+    print ("+-+")
+    print ("| |")
+    print ("+-+")
+else:
+    print ("+-+")
+    print ("| |")
+    print ("+-+-+")
+    
+    for i in range (1, num):
+        space_count = "  " * i
+        if i != num - 1:
+            print (f"{space_count}| |")
+            print (f"{space_count}+-+-+")
+        elif i == num - 1:
+            print (f"{space_count}| |")
+            print (f"{space_count}+-+")
