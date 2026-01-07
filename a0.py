@@ -10,7 +10,9 @@
 
 num = int(input())
 
-if num == 1:
+if num == 0:
+    print ()
+elif num == 1:
     print ("+-+")
     print ("| |")
     print ("+-+")
